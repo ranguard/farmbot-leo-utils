@@ -17,6 +17,8 @@ been unable to find a suitable mechanism for that.
 
 Create a `Lua` step with the code [find_home_periodically](./find_home_periodically.lua)
 
+![Sequence panel view](./img/sequence.jpg)
+
 ## Motivation
 
 ### Limitations
