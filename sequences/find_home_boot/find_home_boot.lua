@@ -8,6 +8,8 @@ function runHomeCheck(zStallMax)
     -- let user set z stall level, but default if missing
     -- Turn on stall detection for the Z axis
     update_firmware_config({
+        encoder_enabled_x = 1,
+        encoder_enabled_y = 1,
         encoder_enabled_z = 1,
         encoder_missed_steps_max_z = zStallMax
     })

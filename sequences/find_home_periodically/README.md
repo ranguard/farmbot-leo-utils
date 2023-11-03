@@ -7,7 +7,7 @@ before/during running events.
 
 ## Setting up the sequence:
 
-You must initially disable stall detection manually, as [recommended](https://express.farm.bot/v1.1/extras/troubleshooting/z-axis-movements.html) for most operations, leaving x,y stall enabled.
+You must initially disable stall detection manually, as [recommended](https://express.farm.bot/v1.1/extras/troubleshooting/z-axis-movements.html) for most operations. X and Y stall detection will be enabled.
 
 ### Variables for the sequence
 
