@@ -3,8 +3,7 @@
 ## Target
 
 Express users with Z axis stall problems who want to validate home location
-before/during running events. The ideal target was after a reboot but I've
-been unable to find a suitable mechanism for that.
+before/during running events.
 
 ## Setting up the sequence:
 
@@ -41,6 +40,5 @@ Controlling how often to run:
 
 ### Additional notes
 
-- Maybe use Lua to read the current process ID (not sure how sequences are run so might get a new one for each location)
-
+- See also [Fnd home at boot](../find_home_boot/)
 - I keep `z axis` motor engaged at all times

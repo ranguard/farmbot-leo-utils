@@ -48,8 +48,8 @@ end
 function main()
     -- Make sure we have the variables we need
     local secondsUntilNextCheck = variable("Seconds between checks");
-
-    zStallMax = variable("Z stall level")
+    local zStallMax = variable("Z stall level")
+    
     if zStallMax == 0 then
         zStallMax = '70'
     end
