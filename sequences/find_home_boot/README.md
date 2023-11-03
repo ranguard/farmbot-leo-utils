@@ -20,6 +20,11 @@ You can now use this sequence in the `BOOT SEQENCE` setting
 
 ![BOOT SEQUENCE setting](./img/sequence.jpg)
 
+Note:
+
+You must initially disable stall detection manually, as [recommended](https://express.farm.bot/v1.1/extras/troubleshooting/z-axis-movements.html) for most operations, leaving x,y stall enabled.
+
+
 ## Motivation
 
 ### Limitations
@@ -30,7 +35,6 @@ You can now use this sequence in the `BOOT SEQENCE` setting
 
 ### Solution
 
-Start: Disable stall detection manually, as [recommended](https://express.farm.bot/v1.1/extras/troubleshooting/z-axis-movements.html) for most operations
 
 Sequence which:
 - Programatically enables stall detection on the Z axis and sets the level

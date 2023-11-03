@@ -7,6 +7,8 @@ before/during running events.
 
 ## Setting up the sequence:
 
+You must initially disable stall detection manually, as [recommended](https://express.farm.bot/v1.1/extras/troubleshooting/z-axis-movements.html) for most operations, leaving x,y stall enabled.
+
 ### Variables for the sequence
 
 - `Seconds between checks` number variable
@@ -27,8 +29,6 @@ Create a `Lua` step with the code [find_home_periodically](./find_home_periodica
 - `env` values last between reboots and are shared between sequences
 
 ### Solution
-
-Start: Disable stall detection manually, as [recommended](https://express.farm.bot/v1.1/extras/troubleshooting/z-axis-movements.html) for most operations
 
 Sequence which:
 - Programatically enables stall detection on the Z axis and sets the level
